@@ -1,0 +1,142 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+.adminHeader{
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(76, 190, 235);
+}
+.admininfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px; 
+    
+}
+.adminLogBtn{
+    margin-top: 10px;
+}
+ul{
+    background-color: rgb(29, 35, 46);
+    width: 16%;
+    height: 100%;
+    position: fixed;
+    padding-top:6%;
+    text-decoration: none;
+  
+}
+ul li{
+       margin:  30px;
+       
+}
+
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    font-size: larger;
+    
+}
+ul li a:hover{
+
+    color: skyblue;
+
+}
+.content h1{
+    margin-top: 80px;
+    margin-left: 20%;
+    color: black;
+}
+
+
+/* applied admission */
+
+
+.tableheadingone{
+
+    float: right;
+    height: 100%;
+    width: 85%;
+    display:block;
+    justify-content: center;
+    justify-items: center;
+   
+  
+   
+}
+.tableadmission{
+    margin-top: 10px;
+}
+.admisionheading{
+    /* background-color: red; */
+    width:63%;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add Studnet Css */
+
+.studentlab{
+    display: inline-block;
+    text-align: right;
+    width: 100PX;
+    padding-top: 10PX;
+    padding-bottom: 10PX;
+}
+
+.addstudentform{
+    background-color: rgb(76, 190, 235);
+    margin-top:8%;
+    margin-right: 15%;
+    width: 60%;
+    padding: 30px;
+}
+.add-student-btn{margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addStudenetHeading{
+    margin-left: 12px;
+    margin: 20px;
+}
+.searchstudenta{
+   
+    margin-top: 11px;
+
+   
+}
+
+/* Student Profile Container  */
+.child{
+    margin: 10px;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right: 18%;
+
+}  
+
+.SearchInput{
+   height:35px;
+}
+.serachbtn{
+       margin-bottom: 5px;
+}
+
+/* .teacher{ */
+    /* height: 50px;
+    width: 50px;
+} */
